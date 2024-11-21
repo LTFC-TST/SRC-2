@@ -64,7 +64,7 @@ jobs:
       - name: SetCommitStatus
         uses: myrotvorets/set-commit-status-action@master
         with:
-           token: ${{ secrets.TOKEN }}
+           token: ${{ github.token }}
            status: success
            context: BuildImage
            sha: ${{ github.sha }}
