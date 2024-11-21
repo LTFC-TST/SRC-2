@@ -86,7 +86,7 @@ jobs:
          # Runs a single command using the runners shell
       - uses: actions/checkout@v4
         with:
-          repository: 'mojaorganizacjatestowa/GitOpsRepo-1'
+          repository: 'LTFC-TST/GITOPS'
           ref: 'main'
           token:  ${{ secrets.TOKEN }}
 
